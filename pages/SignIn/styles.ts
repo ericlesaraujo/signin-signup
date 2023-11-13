@@ -20,3 +20,9 @@ export const Title = styled.Text`
   margin-bottom: 20px;
   fontWeight: bold
 `;
+
+export const Logo = styled.Image`
+  width: ${RFValue(50)}px;
+  height: ${RFValue(50)}px;
+  margin-bottom: ${RFValue(10)}px;
+`;
